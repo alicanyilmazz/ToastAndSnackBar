@@ -13,6 +13,8 @@
 		5ABA00162757EC3B0008D7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA00142757EC3B0008D7D5 /* Main.storyboard */; };
 		5ABA00182757EC3C0008D7D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA00172757EC3C0008D7D5 /* Assets.xcassets */; };
 		5ABA001B2757EC3C0008D7D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA00192757EC3C0008D7D5 /* LaunchScreen.storyboard */; };
+		5ABA00242758049F0008D7D5 /* SnackbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA00232758049F0008D7D5 /* SnackbarView.swift */; };
+		5ABA0026275804C50008D7D5 /* SnackbarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA0025275804C50008D7D5 /* SnackbarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5ABA00172757EC3C0008D7D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ABA001A2757EC3C0008D7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ABA001C2757EC3C0008D7D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ABA00232758049F0008D7D5 /* SnackbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarView.swift; sourceTree = "<group>"; };
+		5ABA0025275804C50008D7D5 /* SnackbarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		5ABA000D2757EC3B0008D7D5 /* ToastAndSnackBar */ = {
 			isa = PBXGroup;
 			children = (
+				5ABA0022275804700008D7D5 /* Snackbar */,
 				5ABA000E2757EC3B0008D7D5 /* AppDelegate.swift */,
 				5ABA00102757EC3B0008D7D5 /* SceneDelegate.swift */,
 				5ABA00122757EC3B0008D7D5 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				5ABA001C2757EC3C0008D7D5 /* Info.plist */,
 			);
 			path = ToastAndSnackBar;
+			sourceTree = "<group>";
+		};
+		5ABA0022275804700008D7D5 /* Snackbar */ = {
+			isa = PBXGroup;
+			children = (
+				5ABA00232758049F0008D7D5 /* SnackbarView.swift */,
+				5ABA0025275804C50008D7D5 /* SnackbarViewModel.swift */,
+			);
+			path = Snackbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABA0026275804C50008D7D5 /* SnackbarViewModel.swift in Sources */,
 				5ABA00132757EC3B0008D7D5 /* ViewController.swift in Sources */,
+				5ABA00242758049F0008D7D5 /* SnackbarView.swift in Sources */,
 				5ABA000F2757EC3B0008D7D5 /* AppDelegate.swift in Sources */,
 				5ABA00112757EC3B0008D7D5 /* SceneDelegate.swift in Sources */,
 			);
