@@ -16,14 +16,14 @@ class ViewController: UIViewController {
         let button1 = UIButton(frame: CGRect(x: 20, y: 130 + (CGFloat(0) * 55) + (CGFloat(0) * 10), width: view.frame.size.width-40, height: 55))
         button1.tag = 1
         button1.backgroundColor = .purple
-        button1.setTitle("ShowSnackbar \(1)", for: .normal)
+        button1.setTitle("info Snackbar", for: .normal)
         button1.setTitleColor(.white, for: .normal)
         button1.addTarget(self, action: #selector(didTappedButton1), for: .touchUpInside)
         view.addSubview(button1)
         let button2 = UIButton(frame: CGRect(x: 20, y: 130 + (CGFloat(1) * 55) + (CGFloat(1) * 10), width: view.frame.size.width-40, height: 55))
         button2.tag = 2
         button2.backgroundColor = .purple
-        button2.setTitle("ShowSnackbar \(2)", for: .normal)
+        button2.setTitle("action Snackbar", for: .normal)
         button2.setTitleColor(.white, for: .normal)
         button2.addTarget(self, action: #selector(didTappedButton2), for: .touchUpInside)
         view.addSubview(button2)
